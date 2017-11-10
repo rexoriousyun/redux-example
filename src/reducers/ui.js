@@ -6,7 +6,7 @@ const initialState = {
 
 export default function ui(state = initialstate, action) {
   switch(action.type === types.SET_COLOR) {
-    return  {
+    return {
       color: action.color
     };
   } else {
